@@ -75,6 +75,3 @@ The API request also handles pagination so users with more than 100 public repos
 
 The interface uses custom CSS and responsive breakpoints rather than a component library. This keeps the dependency footprint small while allowing the interface to adapt directly to desktop and mobile layouts.
 
-## Future Improvements
-
-With additional time, possible improvements could include repository topic filtering, additional sort options, GitHub profile information, language statistics, URL-based searches for shareable results, and authenticated API access through a secu
