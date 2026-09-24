@@ -1,6 +1,6 @@
-# RepoScope
+# GitHub Repository Explorer
 
-RepoScope is a responsive GitHub repository explorer built with React and TypeScript. Enter a GitHub username to browse, search, and sort that user's public repositories.
+This application is a responsive GitHub repository explorer built with React and TypeScript. Enter a GitHub username to browse, search, and sort that user's public repositories.
 
 ## Features
 
@@ -47,7 +47,7 @@ npm run build
 
 ### GitHub-Inspired Interface
 
-Because RepoScope displays GitHub repository data, the interface uses a visual language inspired by GitHub's dark theme. Repository rows, restrained borders, blue links, language indicators, and muted metadata make the application feel familiar while maintaining its own identity.
+Because the application displays GitHub repository data, the interface uses a visual language inspired by GitHub's dark theme. Repository rows, restrained borders, blue links, language indicators, and muted metadata make the application feel familiar while maintaining its own identity.
 
 ### Simple Component Architecture
 
@@ -67,7 +67,7 @@ Filtered and sorted repositories are derived from the fetched repository data ra
 
 ### Public GitHub API Access
 
-RepoScope uses unauthenticated requests to GitHub's public REST API because the application only reads publicly available repository information. This avoids exposing API credentials in client-side code.
+Unauthenticated requests to GitHub's public REST API are used because the application only reads publicly available repository information. This avoids exposing API credentials in client-side code.
 
 The API request also handles pagination so users with more than 100 public repositories are not limited to the first page of results.
 
